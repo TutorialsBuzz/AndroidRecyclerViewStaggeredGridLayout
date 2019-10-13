@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:background="@drawable/circle_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <com.tutorialsbuzz.recyclerviewstaggeredgrid.CirleImageView
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:id="@+id/img"
+            app:civ_border_width="8dp"
+            app:civ_border_color="#e5e5e5"
+            android:contentDescription="@string/app_name"/>
+
+    <TextView
+            android:id="@+id/txt"
+            android:textSize="18sp"
+            android:text="Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/sub_txt"
+            android:textSize="16sp"
+            android:text="Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"/>
+
+</LinearLayout>
+
